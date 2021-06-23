@@ -8,6 +8,8 @@ The above can be resolved using hypothesis testing which can be used to determin
 
 - **Data Preprocessing** : Features have been normalized and no missing values are present.
 
+![Alt Text](corr.png)
+
 - **Initial Results**
 
 **Algorithm** | **Mean Accuracy (%)** |
