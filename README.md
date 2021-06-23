@@ -16,7 +16,21 @@ Logistic Regression | 98.3
 Random Forest Classifier| 99.27
 K-Nearest Neighbors | 99.72
 
-![Alt Text](Files/Accmean.png)
+**Performance comparison of three algorithms** 
 
-- **Hypothesis Testing** : Comparing 2 models at a time, hypothesis testing has been performed to determine the statistical significance of the results obtained. 
 
+![Alt Text](Accmean.png)
+
+- **Hypothesis Testing** : Comparing 2 models at a time, hypothesis testing has been performed using the Paired t-test to determine the statistical significance of the results obtained. 
+
+
+**Algorithms** | **t-statistic** | **p-value** |
+------------ | ------------- | ----------------
+Log Reg and RFC | -1.345 | 0.236
+RFC and KNN | 2.335 | 0.067
+KNN and Log Reg | 3.777 | 0.013 | 
+
+- **Interpretation of Results**
+
+These experiments have been conducted assuming a significance level of 0.05 and when the p-value < 0.05, the null hypothesis can be rejected and conclude that there is a significant difference in the performance of the algorithms and both models do not perform equally well on this dataset. 
+This only applies to Case 3 where the mean accuracies of KNN and Logistic Regression have been compared and a p-value of 0.013 is obtained. Hence, in this case, the results indicate that there is a statistically significant difference between the performance of the models and that one model (KNN) performs better on the dataset.
