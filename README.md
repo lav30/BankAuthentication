@@ -1,4 +1,4 @@
-## How to find out which machine learning algorithm out of many, performs better than the rest?
+## How to determine experimentally which machine learning algorithm, out of many, performs better than the rest?
 
 The above can be resolved using hypothesis testing which can be used to determine the statistical significance of the results obtained. In this project, several classifiers have been trained on the bank note authentication dataset to determine which model performs better over the others, considering that the metrics alone cannot be used to determine a model's generalization capabilities. 
 
