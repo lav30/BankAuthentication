@@ -32,5 +32,5 @@ KNN and Log Reg | 3.777 | 0.013 |
 
 - **Interpretation of Results**
 
-These experiments have been conducted assuming a significance level of 0.05 and when the p-value < 0.05, the null hypothesis can be rejected and conclude that there is a significant difference in the performance of the algorithms and both models do not perform equally well on this dataset. 
+These experiments have been conducted assuming a significance level of 0.05 and when the p-value < 0.05, the null hypothesis can be rejected.
 This only applies to Case 3 where the mean accuracies of KNN and Logistic Regression have been compared and a p-value of 0.013 is obtained. Hence, in this case, the results indicate that there is a statistically significant difference between the performance of the models and that one model (KNN) performs better on the dataset.
