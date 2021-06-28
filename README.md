@@ -12,7 +12,7 @@ This question can be resolved using hypothesis testing which can be used to dete
 
 ![Alt Text](corr.png)
 
-- **Initial Results**
+- **Initial Results post 10-fold Cross Validation**
 
 **Algorithm** | **Mean Accuracy (%)** |
 ------------ | ------------- |
