@@ -1,4 +1,4 @@
-## How to determine experimentally which machine learning algorithm, out of many, performs better than the rest?
+## How to experimentally determine which machine learning algorithm, out of many, performs better than the rest?
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lav30/BankAuthentication)
 
