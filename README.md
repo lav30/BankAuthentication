@@ -1,4 +1,4 @@
-## How to experimentally determine which machine learning algorithm, out of many, performs better than the rest?
+## Hypothesis Testing to determine Statistical Significance of Model Performances.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lav30/BankAuthentication)
 
